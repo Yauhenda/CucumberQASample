@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.epam.jira</groupId>
-    <artifactId>test-management-adapter</artifactId>
-    <version>1.8</version>
+    <artifactId>cucumber4</artifactId>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>QASpace Test Management Annotation</name>
@@ -25,7 +25,6 @@
             </snapshots>
         </repository>
     </repositories>
-
 
     <dependencies>
         <dependency>
@@ -72,11 +71,6 @@
             <groupId>info.cukes</groupId>
             <artifactId>gherkin</artifactId>
             <version>2.12.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.epam.jira</groupId>
-            <artifactId>test-management-adapter</artifactId>
-            <version>1.8</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
