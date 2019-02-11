@@ -17,10 +17,6 @@
     </properties>
     <repositories>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-        <repository>
             <id>bdd-mvn-repo</id>
             <url>https://raw.github.com/Yauhenda/bdd/mvn-repo/</url>
             <snapshots>
@@ -28,7 +24,6 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
-
     </repositories>
 
 
