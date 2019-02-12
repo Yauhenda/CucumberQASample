@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.epam.jira</groupId>
-    <artifactId>cucumber4</artifactId>
+    <artifactId>cucumber-qaspace-example</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
@@ -17,8 +17,8 @@
     </properties>
     <repositories>
         <repository>
-            <id>bdd-mvn-repo</id>
-            <url>https://raw.github.com/Yauhenda/bdd/mvn-repo/</url>
+            <id>cucumber4-mvn-repo</id>
+            <url>https://raw.github.com/Yauhenda/cucumber4/mvn-repo/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -29,8 +29,8 @@
     <dependencies>
         <dependency>
             <groupId>com.epam.jira</groupId>
-            <artifactId>bdd</artifactId>
-            <version>1.8</version>
+            <artifactId>cucumber4</artifactId>
+            <version>0.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
